@@ -9,6 +9,18 @@ body{
     font-family: sans-serif;
 }
 
+.envios{
+    width: 100%;
+    background-color:$color-blue;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    font-weight: bold;
+}
+
 .sec-home{
     display: flex;
     width: 100%;
@@ -194,6 +206,9 @@ body{
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
+    img{
+        object-fit: cover;
+    }
 }
 
 .text-alisados{
